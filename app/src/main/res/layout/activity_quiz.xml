@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    tools:context=".QuizActivity">
+
+    <TextView
+        android:id="@+id/countLabel"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        android:textColor="#FFF"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Q1"
+        />
+
+    <TextView
+        android:id="@+id/questionLabel"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="25dp"
+        android:textSize="24dp"
+        android:textColor="#FFF"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Question"/>
+
+    <Button
+        android:id="@+id/answer1btn"
+        android:layout_gravity="center"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="answer1"
+        android:onClick="checkAnswer"/>
+
+    <Button
+        android:id="@+id/answer2btn"
+        android:layout_gravity="center"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="answer2"
+        android:onClick="checkAnswer"/>
+
+    <Button
+        android:id="@+id/answer3btn"
+        android:layout_gravity="center"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="answer3"
+        android:onClick="checkAnswer"/>
+
+    <Button
+        android:id="@+id/answer4btn"
+        android:layout_gravity="center"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="answer4"
+        android:onClick="checkAnswer"/>
+
+    <TextView
+        android:id="@+id/currentPoints"
+        android:textSize="25dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Points: 0"/>
+
+    <Button
+        android:id="@+id/fiftyfiftybtn"
+        android:textSize="18dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="50/50"/>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cost: 1 Point"/>
+
+    <Button
+        android:id="@+id/giveAnswerbtn"
+        android:textSize="18dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Show Answer"/>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cost: 3 Points"/>
+</LinearLayout>

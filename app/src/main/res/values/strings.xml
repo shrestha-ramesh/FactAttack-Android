@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">FactAttack</string>
+    <string name="no_points">You do not have enough points</string>
+</resources>
